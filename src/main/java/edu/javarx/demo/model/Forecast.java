@@ -17,7 +17,8 @@ public class Forecast {
         return temperature;
     }
 
-    public void setTemperature(Temperature temperature) {
+    public Forecast setTemperature(Temperature temperature) {
         this.temperature = temperature;
+        return this;
     }
 }

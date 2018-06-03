@@ -18,7 +18,7 @@ public class Temperature {
         return scael;
     }
 
-    public void setScael(String scael) {
+    public void setScale(String scael) {
         this.scael = scael;
     }
 }
